@@ -15,7 +15,13 @@ let stud = null;
 
 let stud1;
 
-// Task 1 >-----------------------------------------
+// Task 1 - using normal function >-----------------------------------------
+
+// Syntax - 
+// function functionName(parameters) {
+    // code
+// }
+
 
 // console.log(typeof studID)
 // console.log(typeof studName)
@@ -31,25 +37,30 @@ let stud1;
 // }
 // stud_Data(studID)
 
+
 // function stud_Data(x){
 //     console.log("Type is: "+typeof(x))
 // }
 // stud_Data(studName)
+
 
 // function stud_Data(x){
 //     console.log("Type is: "+typeof(x))
 // }
 // stud_Data(studData)
 
+
 // function stud_Data(x){
 //     console.log("Type is: "+typeof(x))
 // }
 // stud_Data(studP)
 
+
 // function stud_Data(x){
 //     console.log("Type is: "+typeof(x))
 // }
 // stud_Data(stud)
+
 
 // function stud_Data(x){
 //     console.log("Type is: "+typeof(x))
@@ -61,13 +72,28 @@ let stud1;
 // Task 2 >-----------------------------------------
 
 
-function Greet(name = "Guest") {
-    if (name == "Guest") {
-        console.log("Welcome" + name);
-    } else {
-        console.log("Welcome " + name + " to the JS Bootcamp");
-    }
+// function Greet(name = "Guest") {
+//     if (name == "Guest") {
+//         console.log("Welcome" + name);
+//     } else {
+//         console.log("Welcome " + name + " to the JS Bootcamp");
+//     }
+// }
+// Greet("Tejaswini");
+// Greet();
+
+
+
+// Task 3 - using arrow function>-----------------------------------------
+
+// Syntax - 
+// const functionName = (parameters) => {
+     // code
+// };
+
+let Greet = (name = "Guest") => {
+    console.log("Welcome "+name);
 }
-Greet("Tejaswini");
-Greet();
+Greet()
+Greet("Tejaswini")
 
