@@ -51,4 +51,3 @@ let update = {
   walletBalance: 1000
 }
 console.log(update)
-
